@@ -69,3 +69,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # assaignment-9.2
+
+# About my code
+
+### Project Name : Quiz Hunter
+
+## This project is a quiz based project. On this specilly we focused on using react router. we load data from quiz api and show it on UI. 
