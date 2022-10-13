@@ -69,7 +69,7 @@ let QuizOption = ({option}) => {
         <div className='bg-slate-100 mt-5 '>
             <div className='flex justify-center items-center'>
             <input type="radio" name="radio-1" className="radio mr-3 radio-accent" />
-            <p className='text-red-700 mt-3 mb-3'>{option}</p>
+            <button className='text-red-700 mt-3 mb-3'>{option}</button>
 
             </div>
         </div>
