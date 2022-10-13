@@ -6,8 +6,6 @@ const Routs = () => {
     return (
         <div>
             <Header></Header>
-            
-
             <Outlet></Outlet>
             
         </div>
