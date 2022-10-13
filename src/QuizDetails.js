@@ -71,12 +71,13 @@ let QuizOption = ({option, quiz}) => {
             callCorrectAns.innerText = 'Correct';
             console.log('correct')
         }
-        else{
-            let callCorrectAns = document.getElementById('correctAns');
-            callCorrectAns.innerText = 'Incorrect';
-        }
+        // else{
+        //     let callCorrectAns = document.getElementById('correctAns');
+        //     callCorrectAns.innerText = 'Incorrect';
+        // }
     }
     return(
+        
         <div>
         <button className='bg-slate-100 mt-5 w-full' onClick={showCorrectAns}>
             <div className='flex justify-center items-center'>

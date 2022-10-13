@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import HeadImg from './HeadImg';
 
 const Header = () => {
     return (
@@ -34,8 +35,10 @@ const Header = () => {
 </div>
 
     {/* <img src="https://images.unsplash.com/photo-1643186042811-63a2b94c7f98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZ3JhbWluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" className='w-screen h-56' /> */}
+    {/* <HeadImg></HeadImg> */}
+    <HeadImg></HeadImg>
 </div>
-    );
+);
 };
 
 export default Header;

@@ -9,6 +9,7 @@ import Blog from './Blog';
 import QuizCard from './QuizCard';
 import QuizDetails from './QuizDetails';
 import ErrorPage from './ErrorPage';
+import HeadImg from './HeadImg';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
   return (
     <div className="App">
       {/* <Header></Header> */}
+      
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
