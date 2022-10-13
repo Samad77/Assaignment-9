@@ -8,13 +8,14 @@ import Statistics from './Statistics';
 import Blog from './Blog';
 import QuizCard from './QuizCard';
 import QuizDetails from './QuizDetails';
+import ErrorPage from './ErrorPage';
 
 function App() {
 
   let router = createBrowserRouter([
     {path: '/', element: <Routs></Routs>, children: [
         
-        {path: '/', element: <Home></Home>},
+        {path: '/', element: <Home></Home>, errorElement: <ErrorPage></ErrorPage>},
         {path: '/home', element: <Home></Home>, loader: async() => {
             return fetch('https://openapi.programming-hero.com/api/quiz')
         }},

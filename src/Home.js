@@ -8,7 +8,7 @@ const Home = () => {
     console.log(datas);
 
     return (
-        <div className='grid grid-cols-2 w-3/5 mx-auto gap-5'>
+        <div className='grid grid-cols-1 w-3/12 mx-auto gap-5'>
                 {
                     datas.map(data => console.log(data))
                 }

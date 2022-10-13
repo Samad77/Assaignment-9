@@ -12,7 +12,7 @@ const QuizDetails = () => {
     
     return (
         <div>
-            <h1 className='mt-5 text-white text-3xl mb-5'>{name}</h1>
+            <h1 className='mt-5 text-white text-3xl mb-5'>Quiz of {name}</h1>
             {
                 allQuiz.map(quiz => <ShowQuiz quiz = {quiz}></ShowQuiz>)
             }
