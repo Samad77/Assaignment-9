@@ -23,9 +23,9 @@ const Header = () => {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal p-0">
       <li><Link to='/home'>Home</Link></li>
-      <li><a href='/statistics'>Statistics</a></li>
+      <li><Link to='/statistics'>Statistics</Link></li>
 
-      <li><a href='/blog'>Blog</a></li>
+      <li><Link to='/blog'>Blog</Link></li>
     </ul>
   </div>
   {/* <div className="navbar-end">
