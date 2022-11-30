@@ -49,7 +49,7 @@ export default function Statistics(){
 
 
     return (
-      <ResponsiveContainer width="100%" aspect={4} className="my-32">
+      <ResponsiveContainer width="100%" aspect={4} >
         <BarChart
           width={300}
           height={300}
