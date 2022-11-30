@@ -6,8 +6,8 @@ import QuizCard from './QuizCard';
 const Home = () => {
     let loadDatas = useLoaderData();
     console.log(loadDatas);
-    let datas = loadDatas.data;
-    console.log(datas);
+    // let datas = loadDatas.data;
+    // console.log(datas);
 
     return (
         <section>

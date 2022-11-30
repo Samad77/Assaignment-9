@@ -4,8 +4,7 @@ import HeadImg from './HeadImg';
 import QuizCard from './QuizCard';
 
 const Home = () => {
-    let loadDatas = useLoaderData();
-    console.log(loadDatas);
+    let loadDatas = useLoaderData([]);
     let datas = loadDatas.data;
     console.log(datas);
 
@@ -14,9 +13,9 @@ const Home = () => {
             <HeadImg></HeadImg>
 
             <div className='grid grid-cols-1 w-3/12 mx-auto gap-5'>
-                {/* {
+                {
                     datas.map(data => console.log(data))
-                } */}
+                }
                 {
                     datas.map(data => <QuizCard key={data.id} quizData={data}></QuizCard>)
                 }
